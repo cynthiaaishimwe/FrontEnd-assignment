@@ -4,54 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=initial-scale=1.0">
-    <title>Document</title>
-<style>
-  
-  .form{
-    float:right;
-    width: 40%;
-    height: 100%;
-    margin-left: 20%;
-
-
-  }
-  
-.image{
-  float: left;  
-  width: 50%;
-  margin-right: 20%;
-  height: 100%;
-  position: fixed;
-
-}
-</style>
+    <link rel="stylesheet" href="./style.css">
+    <title>assignment</title>
 </head>
-<body> <img src="webdev.jpg" alt="flower" class="image">
+<body> 
+  <div class="container">
+  <img src="webdev.jpg" alt="flower" class="image">
 
   <form action="sign.html" class="form">
     <h1>Hey Hello,</h1>
     <p>Welcome to our website</p>
     <label type="email">Email</label><br>
-    <input type="text">
+    <input type="text" class="email2">
     <br>
     <br>
     <label type="Password">Password</label><br>
-    <input type="Password">
+    <input type="Password" class="Password2" >
     <br>
    <br>
-   <p>already have an account<button type="submit"><a href="http://127.0.0.1:5500/table%20fromatting.html"> Log in</a></button></p>
+   <p>already have an account<button type="submit" class="Log"><a href="http://127.0.0.1:5500/table%20fromatting.html"> Log in</a></button></p>
    <br>
     <br>
     <input type="checkbox">Remember me
     <p>Don't have an account</p>
-    <input type="submit"  value="Sign up">
+    <input type="submit"  value="Sign up" class="sign">
     <br>
     <br>
     
     Or<br>
-    <input type="submit" button="button" value="Sign up with google">
+    <input type="submit" button="button" value="Sign up with google" class="button2">
+    
 
   </form>
+</div>
     
 </body>
 </html>

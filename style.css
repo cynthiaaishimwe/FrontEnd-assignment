@@ -1,0 +1,90 @@
+.container{
+display: flex;
+
+}
+.form{ 
+    width: 500px;
+    margin-left: 20%;
+} 
+.image{
+   width: 50%;
+   height: 80%;
+}
+th,td{
+    border: 2px double black;
+    padding: 16px 24px;
+    background-color: aquamarine;
+}
+.table{
+    border-width: 100%;
+    font-size:medium;
+    width: 80%;
+    height: 200%;   
+}
+table{
+    border-collapse: collapse;
+    margin: 32px auto;
+    
+}
+
+.sign{
+    padding: 8px 32px;
+    margin: 2px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: green;
+    font-size: 20px;
+    border-style: none;
+}
+.first{
+    padding: 10px 20px ;
+    margin: 20px;
+}
+.second{
+    padding:10px 20px ;
+    margin: 20px;
+}
+.email{
+    padding:10px 20px ;
+    margin: 20px;
+}
+.Password{
+    padding: 10px 20px ;
+    margin: 20px;  
+}
+.button2{
+    padding: 8px 32px;
+    margin: 2px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    border-style: none;
+
+}
+.email2{
+    padding: 10px 20px ;
+    margin: 20px;
+}
+.Password2{
+    padding: 10px 20px;
+    margin: 20px;   
+}
+.login{
+    padding: 8px 32px;
+    margin: 2px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: green;
+    font-size: 20px;
+    border-style: none;
+}
+.Log{
+    padding: 8px 32px;
+    margin: 2px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    border-style: none;
+}
